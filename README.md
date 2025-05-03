@@ -1,5 +1,7 @@
 # PKIX - package installer by simple script
 
+all example stores in folder example/
+
 ## Example of python installer
 ```json
 {

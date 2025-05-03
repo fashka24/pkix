@@ -1,0 +1,19 @@
+{
+  "windows": {
+    "download": {
+      "pypy.zip": "https://downloads.python.org/pypy/pypy3.11-v7.3.19-win64.zip"
+    },
+    "execute": [
+    ]
+  },
+  "unix": {
+    "download": {
+      "pypy.tar.bz2": "https://downloads.python.org/pypy/pypy3.11-v7.3.19-linux64.tar.bz2"
+    },
+    "execute": [
+      "tar -xvjf pypy.tar.bz2",
+      "cd pypy3.11-v7.3.19-linux64/bin",
+      "mv pypy3.11 /usr/bin"
+    ]
+  }
+}

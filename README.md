@@ -27,5 +27,5 @@
 
 ## Executing
 ```shell
-python pkix py-installer.pkix.json
+python main.py py-installer.pkix.json
 ```
